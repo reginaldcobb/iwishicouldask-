@@ -3,7 +3,7 @@
   command = "npm install && npm run build"
 
 [build.environment]
-  NODE_VERSION = "18" # Adjust based on your project's Node.js version
+  NODE_VERSION = "20" # Adjust based on your project's Node.js version
   NPM_FLAGS = "--legacy-peer-deps"
 
 [[redirects]]
